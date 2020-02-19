@@ -2,7 +2,7 @@
 
 Dockerfile for Robot Operating System and Jupyter Notebooks
 
-## Before...
+## Before
 
 ### Install Docker
 
@@ -10,22 +10,22 @@ Install Docker (if you have Ubuntu follow [this link](https://docs.docker.com/in
 
 ```sh
 sudo groupadd docker
-        
+
 sudo gpasswd -a ${USER} docker
-        
+
 sudo service docker restart
 ```
 
 ### Build the Docker image for the project
 
 ```sh
-./build.sh
+./scripts/build.sh
 ```
 
-## Try it!
+## Try it
 
 ```sh
-./run.sh
+./scripts/run.sh
 ```
 
 Open a web browser and type localhost:8888. Insert the **password**.
@@ -33,7 +33,7 @@ Open a web browser and type localhost:8888. Insert the **password**.
 ## After
 
 ```sh
-./stop.sh
+./scripts/stop.sh
 ```
 
 ## Original version
