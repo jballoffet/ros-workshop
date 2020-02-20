@@ -30,6 +30,8 @@ sudo service docker restart
 
 Open a web browser and type localhost:8888. Insert the **password**.
 
+## [Index of Python notebooks](notebooks/README.md)
+
 ## After
 
 ```sh
